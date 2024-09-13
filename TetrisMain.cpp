@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
 
     game.handleInput(input);
 
-    // Update game state if not paused and q wasnt pressed
+    // update game state if not paused and q wasnt pressed
     if (!game.isPaused()) {
 
       frameCount++;
